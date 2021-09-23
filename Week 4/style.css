@@ -1,0 +1,39 @@
+h1{
+  font-size: 50px;
+}
+
+body{
+  background-color: rgb(20,100,0);
+}
+
+#input h1{
+  font-size: 50px;
+  color: magenta;
+}
+
+#top h1{
+  color:blue;
+}
+
+#input {
+  background-color: pink;
+}
+
+ul{
+  color: blue;
+  font-family: cursive;
+  font-weight: 100;
+}
+
+img{
+ width: 20vw;
+ margin:10px;
+}
+
+button{
+ background-color: yellow;
+}
+
+form{
+margin-left:20px;
+}
