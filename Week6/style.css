@@ -1,0 +1,67 @@
+p{
+  color:red;
+  font-family: helvetica;
+}
+
+h1,h2{
+  font-family: "Playfair Display";
+}
+h2{
+  font-size:40px;
+}
+
+#hero{
+  width:100vw;
+  height: 60vh;
+  overflow: hidden;
+  margin:0px;
+  padding:0px;
+}
+
+#heroimg{
+  width:100vw;
+  position:relative;
+  bottom: 450px;
+}
+
+#hero h1{
+  z-index: 1;
+  position: relative;
+  font-size: 7vw;
+  top: 30vh;
+  margin: 0 0 0 17vw;
+  color: white;
+}
+
+#one, #two, #three{
+  margin-left: 4vw;
+  margin-right: 3vw;
+}
+
+button {
+  background-color: #ebbd34;
+  font-family: "Playfair Display";
+  font-size:30px;
+  margin:10px;
+  padding: 7px 20px;
+}
+
+button:active{
+  background-color: blue;
+}
+
+button:hover{
+  border: solid black 3px;
+}
+
+a:link{
+  color: blue;
+}
+
+a:active{
+  color:red;
+}
+
+a:visited{
+  color:grey;
+}

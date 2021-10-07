@@ -7,9 +7,11 @@
   </head>
   <body>
   <section id="pagetop">
-    <h1> Welcome to Sophia's Site</h1>
+    <h1 id="head"> Welcome to Sophia's Site</h1>
     <p>Senior at University of Colorado Boulder</p>
     <p><a href="#footer">Go to end</a></p>
+    <button id ="button1">Click Me!</button>
+    <br>
   </section>
 
   <section id="main">
@@ -17,7 +19,7 @@
     <img src="styles.jpeg" alt="Styles wearing socks"/>
     <img src="sophia.JPG" alt="Me in San Francisco"/>
   </section>
-  <section class="box">
+  <section id="box">
     <p> My name is Sophia Venturelli. Here are some fun facts about me: </p>
       <ul>
         <li> I am a marketing major and creative technology and design minor</li>
@@ -25,6 +27,7 @@
         <li> I have two dogs and a younger brother </li>
         <li> My favorite shows right now are Bachelor in Paradise and Nine Perfect Strangers</li>
       </ul>
+      <button id="button2">Click Me!</button>
       <br>
   </section>
   <hr>
@@ -33,6 +36,19 @@
     <p><a href="Week2/encyclopedia.html" target="_blank"> Encyclopedia </a></p>
     <p><a href="#pagetop">Back to top</a></p>
   </section>
+
+<script>
+document.getElementById("button1").addEventListener("click",buttonOne);
+function buttonOne(){
+  document.getElementById("head").innerHTML= "Why did you do that?"
+}
+document.getElementById("button2").addEventListener("click",buttonTwo);
+function buttonTwo(){
+  document.getElementById("pagetop").style.backgroundColor="black";
+  document.getElementById("box").style.backgroundColor="black";
+  document.getElementById("footer").style.backgroundColor="black";
+}
+</script>
   </body>
 
 </html>
