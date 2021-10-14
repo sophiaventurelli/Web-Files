@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quote Machine</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+</head>
+
+<body>
+   <h1> The Self Care Quote Machine</h1>
+   
+<section>
+
+  <h2 id ="qtext">Welcome to the self care quote machine, click the button to get a quote.</h2>
+  <button id="newquote">New Quote</button>
+
+</section>
+
+<script>
+  const quotes = ["Your work is to discover your world and then with all your heart give yourself to it.", "Every one of us needs to show how much we care for each other and, in the process, care for ourselves.", "The thing that is really hard, and really amazing, is giving up on being perfect and beginning the work of becoming yourself.", "If you don’t love yourself, nobody will. Not only that, you won’t be good at loving anyone else. Loving starts with the self.", "The secret of getting ahead is getting started. The secret to getting started is breaking your overwhelming tasks into small manageable tasks, and then starting on the first one.", "Within you, there is a stillness and a sanctuary to which you can retreat at any time and be yourself.", "It’s all about falling in love with yourself and sharing that love with someone who appreciates you, rather than looking for love to compensate for a self-love deficit.","To accept ourselves as we are means to value our imperfections as much as our perfections.", "Loving yourself isn’t vanity. It’s sanity.", "Beauty begins the moment you decide to be yourself.", "Don’t waste your energy trying to change opinions … Do your thing, and don’t care if they like it.","Part of courage is simple consistency."];
+  let quotecount = 0;
+
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementById("qtext").innerHTML = quotes[quotecount];
+    if(quotecount>10){
+      quotecount = 0;
+    }else{
+      quotecount++;
+  }
+
+  }
+
+</script>
+
+</body>
+
+
+</html>
