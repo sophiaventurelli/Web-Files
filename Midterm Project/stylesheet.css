@@ -1,0 +1,80 @@
+body{
+  background-color: #BDE0FE;
+}
+
+#buttons{
+  display: flex;
+}
+
+.days{
+  flex-grow: 1;
+  width: auto;
+  margin:3vw;
+}
+
+button{
+  background-color: #CDB4DB;
+  font-family: "New Scheherazade";
+  font-size: 25px;
+  color:#FFECF3;
+  padding:5px;
+  border-radius: 8px;
+}
+
+button:hover{
+  background-color: #FFC8DD;
+  color: #717070;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+button:active{
+  font-size: 23px;
+}
+
+#pagetop{
+  text-align: center;
+  background-color: #FFAFCC;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+h1{
+  font-family: "Raleway";
+  color: #FFECF3;
+  font-size: 50px;
+}
+
+p{
+  font-family: "New Scheherazade";
+  font-size: 20px;
+  color:#FFECF3;
+}
+
+#daytitle{
+  font-family: "Raleway";
+  font-size: 30px;
+  background-color: #FFAFCC;
+  color: #FFECF3;
+  margin-left: 585px;
+  margin-right: 585px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#main{
+  display:flex;
+}
+
+.menu{
+  flex-grow: 2;
+  width: auto;
+  margin:3vw;
+  background-color: #FFC8DD;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-align: center;
+}
