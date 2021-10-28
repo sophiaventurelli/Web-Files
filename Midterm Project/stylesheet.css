@@ -39,6 +39,7 @@ button:active{
   margin-right: 300px;
   padding: 10px 30px;
   border-radius: 10px;
+  border: solid 10px #CDB4DB;
 }
 
 h1{
@@ -58,23 +59,41 @@ p{
   font-size: 30px;
   background-color: #FFAFCC;
   color: #FFECF3;
-  margin-left: 585px;
-  margin-right: 585px;
+  margin-left: 600px;
+  margin-right: 600px;
   padding: 10px 15px;
   border-radius: 10px;
   text-align: center;
+  border: solid 10px #CDB4DB;
 }
 
 #main{
   display:flex;
 }
 
-.menu{
-  flex-grow: 2;
-  width: auto;
+#menu,#image,#quote{
+  flex-grow: 1;
+  width: 150px;
+  height: 300px;
   margin:3vw;
-  background-color: #FFC8DD;
-  padding: 10px 15px;
+  background-color: #FFAFCC;
+  padding: 10px 15px 10px 15px;
   border-radius: 10px;
+  text-align: center;
+  border: solid 10px #CDB4DB;
+}
+img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+h3{
+  font-family: "New Scheherazade";
+  font-size: 30px;
+  color:#FFECF3;
   text-align: center;
 }
