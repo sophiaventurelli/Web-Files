@@ -2,24 +2,33 @@
 <html lang="en">
   <head>
     <title>Sophia's Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
   </head>
   <body>
   <section id="pagetop">
-    <h1 id="head"> Welcome to Sophia's Site</h1>
-    <p>Senior at University of Colorado Boulder</p>
-    <p><a href="#footer">Go to end</a></p>
-    <button id ="button1">Click Me!</button>
+    <div id="header">
+      <h1 id="head"> Welcome to Sophia's Site</h1>
+      <p>Senior at University of Colorado Boulder</p>
+      <p><a href="#footer">Go to end</a></p>
+      <button id ="button1">Click Me!</button>
+    </div>
     <br>
   </section>
+  <hr>
 
   <section id="main">
-    <hr>
-    <img src="styles.jpeg" alt="Styles wearing socks"/>
-    <img src="sophia.JPG" alt="Me in San Francisco"/>
+    <div class = "pics">
+      <img src="styles.jpeg" alt="Styles wearing socks"/>
+    </div>
+    <div class = "pics">
+      <img src="sophia.JPG" alt="Me in San Francisco"/>
+    </div>
   </section>
-  <section id="box">
+
+  <section id="text">
+    <div id="box">
     <p> My name is Sophia Venturelli. Here are some fun facts about me: </p>
       <ul>
         <li> I am a marketing major and creative technology and design minor</li>
@@ -28,13 +37,16 @@
         <li> My favorite shows right now are Bachelor in Paradise and Nine Perfect Strangers</li>
       </ul>
       <button id="button2">Click Me!</button>
+    </div>
       <br>
   </section>
   <hr>
 
   <section id="footer">
-    <p><a href="Week2/encyclopedia.html" target="_blank"> Encyclopedia </a></p>
-    <p><a href="#pagetop">Back to top</a></p>
+    <div id="end">
+      <p><a href="Week2/encyclopedia.html" target="_blank"> Encyclopedia </a></p>
+      <p><a href="#pagetop">Back to top</a></p>
+    </div>
   </section>
 
 <script>
