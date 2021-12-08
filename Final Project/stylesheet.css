@@ -1,0 +1,517 @@
+body{
+  background-color: rgb(0,0,0);
+}
+
+p{
+  font-family: "Arimo";
+  font-size: 18px;
+  color: white;
+}
+
+#hero img{
+  width: 100%;
+  height:600px;
+  object-fit: cover;
+}
+
+#hero h1{
+  z-index:1;
+  position: absolute;
+  text-align: center;
+  margin-top: 40vh;
+  margin-left: 35vw;
+  font-weight: 600;
+  font-family: "Teko";
+  font-size: 200px;
+  color: white;
+}
+
+nav{
+  display:flex;
+  flex-grow: 1;
+  width: 50vw;
+  flex-wrap: wrap;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+  background-color: #009FFD;
+}
+
+nav a{
+  font-family: "Teko";
+  font-size: 30px;
+  font-weight: 700px;
+  margin-left: 9.5vw;
+  text-decoration: none;
+  color: white;
+}
+
+.active{
+  color: #564D80;
+}
+
+#bio{
+  display: flex;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.info{
+  flex-grow: 1;
+  align-items: center;
+  border: solid #F26419 5px;
+  margin-top: 7vh;
+  margin-right: 3vw;
+  margin-left: 2vw;
+}
+
+.info p{
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top:2vh;
+  text-align: center;
+}
+
+#bio img{
+  width: 41vw;
+  height: 60vh;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+#music{
+  display: flex;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.header h2{
+  font-family: "Teko";
+  font-size: 54px;
+  color: white;
+  text-align: center;
+}
+
+.header p{
+  font-family: "Teko";
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-top: -4vh;
+}
+
+
+#music img{
+  width: 16vw;
+  height: 30vh;
+  border: solid 10px #564D80;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.albums{
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+.albums h2{
+  font-family: "Teko";
+  font-size: 30px;
+  color: white;
+}
+
+#music a:link{
+  color:#009FFD;
+  font-size:20px;
+}
+
+#music a:active{
+  font-size: 22px;
+  color: skyblue;
+}
+
+#music a:visited{
+  color:#009FFD;
+  font-size:20px;
+}
+
+
+.contact{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  margin-left: 5vw;
+  margin-top: 3vh;
+  align-items: center;
+}
+
+.socialimg{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  margin-top: 1vh;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+
+.socialimg img{
+  width:3vw;
+  height:6vh;
+}
+
+#logo img{
+  width: 28vw;
+  height: 17vh;
+  margin-top: 2vh;
+}
+
+#webpage{
+  background-color: #F26419;
+  font-size: 30px;
+  padding:1vw 1vh 1vw 1vh;
+  border: solid #F26419 2px;
+  font-family: "Teko";
+  color:white;
+  margin-top: 3vh;
+  margin-left: 38vw;
+}
+
+#footer button:active{
+  font-size: 25px;
+}
+
+#footer button:hover{
+  font-size: 35px;
+}
+
+#footer a:active{
+  color: #009FFD;
+  font-size: 25px;
+}
+
+#footer a:visited{
+  color: white;
+}
+
+hr{
+  border: solid #564D80 3px;
+}
+
+#herotour img{
+  width: 100%;
+  height:600px;
+  object-fit: cover;
+}
+
+#herotour h1{
+  z-index:1;
+  position: absolute;
+  text-align: center;
+  margin-top: 43vh;
+  margin-left: 40vw;
+  font-weight: 600;
+  font-family: "Teko";
+  font-size: 200px;
+  color: white;
+}
+
+#herohighlights img{
+  width: 100%;
+  height:600px;
+  object-fit: cover;
+}
+
+#herohighlights h1{
+  z-index:1;
+  position: absolute;
+  text-align: center;
+  margin-top: 45vh;
+  margin-left: 30vw;
+  font-weight: 600;
+  font-family: "Teko";
+  font-size: 200px;
+  color: white;
+}
+
+.tourdates{
+  display: flex;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  background-color: #009FFD;
+  margin-top: 1vh;
+}
+
+.tourdates h3{
+  font-family: "Teko";
+  font-size: 25px;
+  color: white;
+  margin-top: 4vh;
+}
+
+.tourdates h4{
+  font-family: "Teko";
+  font-size: 45px;
+  color: white;
+  margin-top: -4vh;
+  margin-bottom: 5.5vh;
+}
+
+.dates{
+  flex-grow: 1;
+  margin-left: 5vw;
+  margin-bottom: -6vh;
+  margin-top: -3vh;
+}
+
+.tickets{
+  background-color: #F26419;
+  font-size: 25px;
+  padding:.5vw 1vh .5vw 1vh;
+  border: solid #F26419 2px;
+  font-family: "Teko";
+  color:white;
+  margin-top: 5vh;
+  margin-right: 7vw;
+  float: right;
+}
+
+.tourdates button:active{
+  font-size: 25px;
+}
+
+.tourdates button:hover{
+  font-size: 29px;
+}
+
+.tourdates a:active{
+  color: #009FFD;
+  font-size: 20px;
+}
+
+.tourdates a:visited{
+  color: white;
+}
+
+.dates h5{
+  font-family: "Teko";
+  font-size: 25px;
+  color: white;
+  margin-top:-7vh;
+  margin-bottom:6vh;
+}
+
+#tx{
+  margin-left: 6.5vw;
+}
+#pa{
+  margin-left: 6vw;
+}
+#dc{
+  margin-left:5.5vw
+}
+#fl{
+  margin-left: 10vw;
+}
+
+#throwback {
+  margin-top: 7vh;
+}
+
+#al{
+  margin-left: 12vw;
+}
+#paris{
+  margin-left: 10vw;
+}
+
+#title h3{
+  font-family: "Teko";
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: -5vh;
+}
+
+#trilogy{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-auto-flow:row;
+  grid-auto-rows: 50vh;
+}
+
+#redrocks{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-auto-flow:row;
+  grid-auto-rows: 50vh;
+}
+
+#sanfran{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-auto-flow:row;
+  grid-auto-rows: 50vh;
+}
+
+.portfoliopic{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+#vegas{
+  margin: auto 4vw auto 4vw;
+}
+#colorado{
+  margin: auto 4vw auto 4vw;
+}
+#california{
+  margin: auto 4vw auto 4vw;
+}
+
+.pimage{
+  background-color:#009FFD;
+  transition: border-radius .5s;
+}
+
+.pimage:hover{
+  border: 100px 100px 100px 100px;
+}
+
+.pimage img{
+  transition: opacity .5s ease-in, border-radius .5s;
+}
+
+.pimage img:hover{
+  opacity: .70;
+}
+
+#showtrilogy{
+  display:none;
+  width: 100vw;
+  height:100vh;
+  background-color: RGBA(0,0,0,0.5);
+  position: fixed;
+  margin:0;
+  top:0;
+  left:0;
+}
+
+#moretrilogy{
+  display:none;
+  z-index:1;
+  width:500px;
+  height:auto;
+  position:fixed;
+  background-color: #564D80;
+  opacity: .85;
+  left: calc(50vw - calc(500px / 2));
+  padding:50px;
+  top:70px;
+}
+
+#showred{
+  display:none;
+  width: 100vw;
+  height:100vh;
+  background-color: RGBA(0,0,0,0.5);
+  position:fixed;
+  margin:0;
+  top:0;
+  left:0;
+}
+
+#morered{
+  display:none;
+  z-index:1;
+  width:500px;
+  height:auto;
+  position:fixed;
+  background-color: #564D80;
+  opacity: .85;
+  left: calc(50vw - calc(500px / 2));
+  padding:50px;
+  top:70px;
+}
+
+#showsf{
+  display:none;
+  width: 100vw;
+  height:100vh;
+  background-color: RGBA(0,0,0,0.5);
+  position:fixed;
+  margin:0;
+  top:0;
+  left:0;
+}
+
+#moresf{
+  display:none;
+  z-index:1;
+  width:500px;
+  height:auto;
+  position:fixed;
+  background-color: #564D80;
+  opacity: .85;
+  left: calc(50vw - calc(500px / 2));
+  padding:50px;
+  top:70px;
+}
+
+#vegas h1{
+  font-family: "Teko";
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+#vegas p{
+    font-family: "Arimo";
+    font-size: 18px;
+    color: white;
+  }
+
+#colorado h1{
+    font-family: "Teko";
+    font-size: 50px;
+    color: white;
+    text-align: center;
+  }
+
+#colorado p{
+      font-family: "Arimo";
+      font-size: 18px;
+      color: white;
+    }
+
+#california h1{
+      font-family: "Teko";
+      font-size: 50px;
+      color: white;
+      text-align: center;
+    }
+
+#california p{
+        font-family: "Arimo";
+        font-size: 18px;
+        color: white;
+      }
+.albums:hover{
+        border: 100px 100px 100px 100px;
+      }
+
+.albums img{
+      transition: opacity .5s ease-in, border-radius .5s;
+    }
+
+.albums img:hover{
+      opacity: .70;
+    }
