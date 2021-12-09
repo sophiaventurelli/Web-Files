@@ -332,7 +332,7 @@ hr{
   margin-left: 10vw;
 }
 
-#title h3{
+#title1,#title2,#title3 h3{
   font-family: "Teko";
   font-size: 30px;
   color: white;
