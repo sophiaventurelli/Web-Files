@@ -11,8 +11,8 @@
     z-index:1;
     position: absolute;
     align-items: center;
-    margin-top: 40vh;
-    margin-bottom: 4vh;
+    margin-top: 20%;
+    margin-bottom: 8vh;
     padding-left: 30vw;
     padding-right: 35vw;
     font-weight: 600;
@@ -31,7 +31,7 @@
     z-index:1;
     position: absolute;
     text-align: center;
-    margin-top: 38vh;
+    margin-top: 20%;
     margin-left: 38vw;
     font-weight: 600;
     font-family: "Teko";
@@ -49,7 +49,7 @@
     z-index:1;
     position: absolute;
     text-align: center;
-    margin-top: 38vh;
+    margin-top: 20%;
     margin-left: 26vw;
     font-weight: 600;
     font-family: "Teko";
