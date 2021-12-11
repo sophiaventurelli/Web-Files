@@ -76,4 +76,11 @@ function clickedTriggerS(s){
   }
   console.log('clicked');
   console.log(s.target.id);
-}
+};
+
+
+document.getElementById('webpage').addEventListener("click",goWebsite);
+function goWebsite(){
+   window.open('https://illenium.com/');
+   console.log('clicked');
+};

@@ -23,3 +23,9 @@ document.getElementById("embers").onclick = function(){
     if (audio.paused) audio.play();
     else audio.pause();
 };
+
+document.getElementById('webpage').addEventListener("click",goWebsite);
+function goWebsite(){
+   window.open('https://illenium.com/');
+   console.log('clicked');
+}
