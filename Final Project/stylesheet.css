@@ -282,6 +282,29 @@
     color: white;
   }
 
+  #tx{
+    margin-left: 6vw;
+  }
+  #pa{
+    margin-left: 5.5vw;
+  }
+  #dc,#dc1{
+    margin-left:5vw
+  }
+  #fl{
+    margin-left: 9vw;
+  }
+
+  #tic2 {
+    margin-top: 7vh;
+  }
+
+  #al{
+    margin-left: 11vw;
+  }
+  #paris{
+    margin-left: 9vw;
+  }
 }
 
 
